@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: tenant-operator-config
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: openshift-gitops
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: workshop/tenant-operator-config
+    repoURL: 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/shared-nordmart-infra-gitops-config.git'
+    targetRevision: main
+    directory:
+      recurse: true
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
