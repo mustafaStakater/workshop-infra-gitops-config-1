@@ -1,7 +1,7 @@
 apiVersion: tenantoperator.stakater.com/v1beta1
 kind: Tenant
 metadata:
-  name: dominator
+  name: amazing-dominator
 spec:
   quota: nordmart-medium
   owners:
@@ -12,8 +12,8 @@ spec:
       openshift.io/node-selector: node-role.kubernetes.io/infra=
   argocd:
     sourceRepos:
-      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/shared-nordmart-infra-gitops-config'
-      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/nordmart-apps-gitops-config'
+      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/shared-nordmart-infra-gitops-config.git'
+      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/nordmart-apps-gitops-config.git'
   namespaces:
   - dev
   - build

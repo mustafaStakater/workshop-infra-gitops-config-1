@@ -1,7 +1,7 @@
 apiVersion: tenantoperator.stakater.com/v1beta1
 kind: Quota
 metadata:
-  name: nordmart-small
+  name: workshop-small
   annotations:
     quota.tenantoperator.stakater.com/is-default: "false"
 spec:
