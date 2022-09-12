@@ -11,6 +11,7 @@ spec:
     sourceRepos:
       - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/workshop-infra-gitops-config.git'
       - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/<GROUP_NAME>/nordmart-apps-gitops-config.git'
+      - 'https://stakater.github.io/stakater-charts'
   namespaces:
   - dev
   - build
