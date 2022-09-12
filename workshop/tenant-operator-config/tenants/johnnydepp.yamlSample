@@ -1,19 +1,16 @@
 apiVersion: tenantoperator.stakater.com/v1beta1
 kind: Tenant
 metadata:
-  name: johnny-depp
+  name: <YOUR_NAME OR PARTICIPANT_NAME>
 spec:
   quota: workshop-medium
   owners:
     users:
-      - m.mustafa
-  commonMetadata:
-    annotations:
-      openshift.io/node-selector: node-role.kubernetes.io/infra=
+      - <USER_NAME>
   argocd:
     sourceRepos:
       - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/workshop-infra-gitops-config.git'
-      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/nordmart-apps-gitops-config.git'
+      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/<GROUP_NAME>/nordmart-apps-gitops-config.git'
   namespaces:
   - dev
   - build
