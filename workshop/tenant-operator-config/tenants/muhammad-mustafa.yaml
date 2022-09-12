@@ -1,0 +1,19 @@
+apiVersion: tenantoperator.stakater.com/v1beta1
+kind: Tenant
+metadata:
+  name: muhammad-mustafa
+spec:
+  quota: workshop-medium
+  owners:
+    users:
+      - m.mustafa
+  argocd:
+    sourceRepos:
+      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/workshop-infra-gitops-config.git'
+      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/genesis/nordmart-apps-gitops-config.git'
+  namespaces:
+  - dev
+  - build
+  - test
+  - prod
+
