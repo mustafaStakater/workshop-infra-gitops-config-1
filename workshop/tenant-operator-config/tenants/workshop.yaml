@@ -6,7 +6,6 @@ spec:
   quota: workshop-medium
   owners:
     users:
-      - m.mustafa
       - mustafa@stakater.com
   commonMetadata:
     annotations:
