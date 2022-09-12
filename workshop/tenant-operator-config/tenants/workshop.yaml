@@ -12,7 +12,7 @@ spec:
       openshift.io/node-selector: node-role.kubernetes.io/infra=
   argocd:
     sourceRepos:
-      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/shared-nordmart-infra-gitops-config.git'
+      - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/workshop-infra-gitops-config.git'
       - 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/nordmart-apps-gitops-config.git'
   namespaces:
   - dev
