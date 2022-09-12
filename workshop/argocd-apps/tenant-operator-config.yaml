@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: tenant-operator-config
+  name: workshop-tenant-operator-config
   namespace: openshift-gitops
 spec:
   destination:
