@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: workshop/tenant-operator-config
-    repoURL: 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominators/workshop-infra-gitops-config.git'
+    repoURL: 'https://gitlab.apps.devtest.vxdqgl7u.kubeapp.cloud/dominator/workshop-infra-gitops-config.git'
     targetRevision: main
     directory:
       recurse: true
