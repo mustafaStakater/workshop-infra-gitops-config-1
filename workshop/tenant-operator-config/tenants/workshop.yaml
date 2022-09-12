@@ -6,7 +6,7 @@ spec:
   quota: workshop-medium
   owners:
     users:
-      - mustafa@stakater.com
+      - m.mustafa
   commonMetadata:
     annotations:
       openshift.io/node-selector: node-role.kubernetes.io/infra=
