@@ -3,7 +3,7 @@ kind: Tenant
 metadata:
   name: amazing-dominator
 spec:
-  quota: nordmart-medium
+  quota: workshop-medium
   owners:
     users:
       - mustafa@stakater.com
